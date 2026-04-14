@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shock-ale-sw"
+version = "0.1.0"
+description = "Open solver for shallow-water shock-wave simulations on moving triangular meshes"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Apache License 2.0"}
+authors = [
+    {name = "Stanislav A. Ladygin"},
+    {name = "Kirill E. Shilnikov"},
+]
+keywords = [
+    "shallow water",
+    "ALE",
+    "shock waves",
+    "moving mesh",
+    "Godunov method",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "triangle",
+    "numba",
+]
+
+[project.optional-dependencies]
+notebook = [
+    "jupyterlab>=4",
+]
+
+[project.urls]
+Homepage = "https://github.com/MIJO7317/Shock-ALE-SW"
+Repository = "https://github.com/MIJO7317/Shock-ALE-SW"
+Issues = "https://github.com/MIJO7317/Shock-ALE-SW/issues"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+license-files = ["LICENSE", "NOTICE"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["shock_only_sw*"]

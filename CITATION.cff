@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Shock-ALE-SW"
+type: software
+version: 0.1.0
+date-released: "2026-04-09"
+license: Apache-2.0
+repository-code: "https://github.com/MIJO7317/Shock-ALE-SW"
+abstract: >-
+  Shock-ALE-SW is a Python software package for shallow-water shock-wave
+  simulations on moving triangular meshes using a Godunov-type finite-volume
+  formulation with ALE mesh motion and rotated Riemann-solver flux evaluation.
+authors:
+  - family-names: Ladygin
+    given-names: Stanislav Arkadievich
+    affiliation: National Research Nuclear University MEPhI
+  - family-names: Shilnikov
+    given-names: Kirill Evgenievich
+    affiliation: National Research Nuclear University MEPhI; Moscow Institute of Physics and Technology
+keywords:
+  - shallow water
+  - shock waves
+  - moving mesh
+  - ALE
+  - Godunov method
+  - triangular mesh

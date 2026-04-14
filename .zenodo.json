@@ -1,0 +1,40 @@
+{
+  "title": "Shock-ALE-SW: Shallow-water shock-wave simulations on moving triangular meshes",
+  "description": "Shock-ALE-SW is a Python software package for two-dimensional shallow-water shock-wave simulations on moving triangular meshes. The package implements a Godunov-type finite-volume method with ALE mesh motion, exact local Riemann-state evaluation, and a rotated Riemann solver. The repository includes a reproducible notebook for a single planar shock-wave benchmark in a circular domain.",
+  "license": {
+    "id": "Apache-2.0"
+  },
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Ladygin, Stanislav Arkadievich",
+      "affiliation": "National Research Nuclear University MEPhI"
+    },
+    {
+      "name": "Shilnikov, Kirill Evgenievich",
+      "affiliation": "National Research Nuclear University MEPhI"
+    }
+  ],
+  "keywords": [
+    "shallow water",
+    "shock waves",
+    "moving mesh",
+    "ALE",
+    "Godunov method",
+    "triangular mesh",
+    "finite volume"
+  ],
+  "grants": [
+    {
+      "funder": "Russian Science Foundation",
+      "id": "24-71-00113"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/MIJO7317/Shock-ALE-SW",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
