@@ -6,6 +6,7 @@ version: 0.1.0
 date-released: "2026-04-09"
 license: Apache-2.0
 repository-code: "https://github.com/MIJO7317/Shock-ALE-SW"
+doi: "10.5281/zenodo.19570235"
 abstract: >-
   Shock-ALE-SW is a Python software package for shallow-water shock-wave
   simulations on moving triangular meshes using a Godunov-type finite-volume
