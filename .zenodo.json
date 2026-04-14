@@ -24,12 +24,7 @@
     "triangular mesh",
     "finite volume"
   ],
-  "grants": [
-    {
-      "funder": "Russian Science Foundation",
-      "id": "24-71-00113"
-    }
-  ],
+  "notes": "This work was supported by the Russian Science Foundation (RSF), project No. 24-71-00113.",
   "related_identifiers": [
     {
       "identifier": "https://github.com/MIJO7317/Shock-ALE-SW",
