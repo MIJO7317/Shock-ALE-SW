@@ -66,7 +66,22 @@ CONTRIBUTING.md           Contribution guidelines
 
 ## Citation
 
-Please use the metadata in `CITATION.cff` when citing this software. GitHub can expose the citation entry directly from that file after publication.
+If you use this software, please cite it as:
+
+```bibtex
+@software{ladygin_shilnikov_2026_shock_ale_sw,
+  author       = {Ladygin, Stanislav Arkadievich and
+                  Shilnikov, Kirill Evgenievich},
+  title        = {Shock-ALE-SW},
+  version      = {0.1.0},
+  date         = {2026-04-09},
+  doi          = {10.5281/zenodo.19570235},
+  url          = {https://github.com/MIJO7317/Shock-ALE-SW},
+  license      = {Apache-2.0}
+}
+```
+
+GitHub also provides a citation prompt via the `CITATION.cff` file in this repository.
 
 ## License
 
