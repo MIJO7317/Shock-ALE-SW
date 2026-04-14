@@ -8,6 +8,8 @@
 
 Shock-ALE-SW is an openly available Python software package for two-dimensional shallow-water shock-wave simulations on moving triangular meshes. The package implements a Godunov-type finite-volume method with ALE mesh motion, exact local Riemann-state evaluation, and a rotated Riemann solver. The repository also includes a reproducible notebook for a single planar shock-wave benchmark in a circular domain.
 
+![Single planar shock on a moving triangular mesh](demo.gif)
+
 ## Registration
 
 Certificate of state registration of a computer program No. 2026660158 dated 09.04.2026 (application No. 2026619222 dated 02.04.2026).
