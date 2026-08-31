@@ -76,7 +76,7 @@ If you use this software, please cite it as:
   version      = {0.1.0},
   date         = {2026-04-09},
   doi          = {10.5281/zenodo.19570235},
-  url          = {https://github.com/MIJO7317/Shock-ALE-SW},
+  url          = {https://github.com/stanislav-ladygin/Shock-ALE-SW},
   license      = {Apache-2.0}
 }
 ```

@@ -27,10 +27,9 @@
   "notes": "This work was supported by the Russian Science Foundation (RSF), project No. 24-71-00113.",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/MIJO7317/Shock-ALE-SW",
+      "identifier": "https://github.com/stanislav-ladygin/Shock-ALE-SW",
       "relation": "isSupplementTo",
       "scheme": "url"
     }
-  ],
-  "doi": "10.5281/zenodo.19570235"
+  ]
 }
